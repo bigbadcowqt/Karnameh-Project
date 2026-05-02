@@ -8,7 +8,7 @@ char end;
 char op;
 
 while(true){
-cout<<"......::..MASHIN HESABE MICHOO..::......
+cout<<"......::..MASHIN HESABE MICHOO..::......"<<endl<<endl;
 cout<<"adad aval :   ";
 cin>>a;
 
@@ -43,7 +43,7 @@ cout<<" amaliyat eshtebah ast!";
 cout<<endl;
 cout<<"......................"<<endl;
 
-cout << "edameh bedin?  (y/n): ";
+cout << "edameh bedim?  (y/n): ";
 cin>>end;
 
 if(end=='n')
