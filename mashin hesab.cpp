@@ -1,15 +1,26 @@
 #include <iostream>
 using namespace std;
-int main(){
-	float a, b;
-	for(int a=1; a<=10;){
-		for(int b=1; b<=10;){
-			cout<<"				salam in yek mashin hesab ast."<<'\n';
-			cout<<"lotfan adad aval ra vared konid:     ";
-			cin>>		a;
-			cout<<"lotfan adad dovom ra vared konid:	";
-			cin>>		b;
-			cout<<".........javab =			"<<a*b<<'\n';
-		}
-	}
+
+int main() {
+    float a, b;
+    char ch;
+
+    while(true) {
+
+        cout<<"adad aval: ";
+        cin>>a;
+
+        cout<<"adad dovom: ";
+        cin>>b;
+
+        cout<<"javab = "<<a*b<<endl;
+
+        cout<<"edame bedim? (y/n): ";
+        cin>>ch;
+
+        if(ch=='n')
+            break;
+    }
+
+    return 0;
 }
